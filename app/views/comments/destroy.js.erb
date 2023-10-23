@@ -1,0 +1,5 @@
+"use strict";
+
+$("#<%= dom_id(@comment) %>").slideUp(500, function() {
+  $(this).remove();
+});
